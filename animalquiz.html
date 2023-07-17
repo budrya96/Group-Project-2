@@ -82,7 +82,7 @@
         const getNewQuestion = () => {
             if(availableQuestions.length == 0 || questionCounter >= maxquestions)  {
             localStorage.setItem('playerscore',score);
-            window.location.replace("/group project 2/score.html");
+            window.location.replace("score.html");
             }
         questionCounter++;
         counter.innerText=questionCounter + "/10";
